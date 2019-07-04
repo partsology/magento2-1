@@ -1005,7 +1005,7 @@
     <type name="Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\BatchSizeCalculator">
         <arguments>
             <argument name="batchRowsCount" xsi:type="array">
-                <item name="default" xsi:type="number">5000</item>
+                <item name="default" xsi:type="number">1700</item>
             </argument>
             <argument name="estimators" xsi:type="array">
                 <item name="default" xsi:type="object">Magento\Catalog\Model\Indexer\Price\BatchSizeManagement</item>
